@@ -1,5 +1,6 @@
 # "Iris Dataset" Analysis using Machine Learning Techniques (XGBoost/Gradient Boosted Decision Trees)
 
+![Visualized Data](https://github.com/StephenNg25/XGBoost-GBDT-for-Iris-Dataset/blob/main/Iris%20Flowers.png)
 ## **Introduction**
 In this project, I embarked on a journey into the Iris dataset, a classic in the field of machine learning. The dataset comprises 150 samples of iris flowers, each characterized by its own size of features like sepal and petal. The goal of this project is to build and optimize a machine learning model for accurate classification of iris species. I've explicitly implemented **two versions** of the model using:
 1. **Gradient Boosted Decision Trees (GBDT)**: A step-by-step manual implementation to demonstrate the core concepts of boosting.
