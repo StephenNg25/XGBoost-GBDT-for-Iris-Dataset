@@ -100,6 +100,7 @@ In this project, I embarked on a journey into the Iris dataset, a classic in the
 
 
 ## **Results**
+![Result](https://github.com/StephenNg25/XGBoost-GBDT-for-Iris-Dataset/blob/main/Result.png)
 - **Gradient Boosted Decision Trees (GBDT)**:
   - Accuracy on test data: ~100% (Due to a small dataset)
   - Key takeaway: Provides insights into the inner workings of gradient boosting.
