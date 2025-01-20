@@ -52,8 +52,6 @@ In this project, I embarked on a journey into the Iris dataset, a classic in the
      final_predictions = np.argmax(y_pred, axis=1)
      ```
 
----
-
 ### **4. XGBoost**
 
 #### **Core Features**:
@@ -82,10 +80,8 @@ In this project, I embarked on a journey into the Iris dataset, a classic in the
    ```
 4. Calculate accuracy:
    ```python
-   accuracy = accuracy_score(y_test, y_pred)
+   accuracy_score(y_test, predictions)
    ```
-
----
 
 ## **Key Concepts Learned**
 1. **Gradient Boosting**:
@@ -101,17 +97,15 @@ In this project, I embarked on a journey into the Iris dataset, a classic in the
 6. **Regularization** (via XGBoost):
    - Prevents overfitting through L1/L2 penalties.
 
----
 
 ## **Results**
 - **Gradient Boosted Decision Trees (GBDT)**:
-  - Accuracy on test data: ~85%
+  - Accuracy on test data: ~100% (Due to a small dataset)
   - Key takeaway: Provides insights into the inner workings of gradient boosting.
 - **XGBoost**:
-  - Accuracy on test data: ~95%
+  - Accuracy on test data: ~100% (Due to a small dataset)
   - Key takeaway: Optimized implementation significantly outperforms manual GBDT.
 
----
 
 ## **How to Run the Code**
 
@@ -124,18 +118,17 @@ pip install numpy scikit-learn xgboost
 ### **Steps**:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/iris-analysis.git
-   cd iris-analysis
+   git clone https://github.com/StephenNg25/XGBoost-GBDT-for-Iris-Dataset.git
+   cd XGBoost-GBDT-for-Iris-Dataset
    ```
 2. Run the notebook:
    ```bash
-   jupyter notebook Iris_Analysis.ipynb
+   jupyter notebook XGBoost for Iris Dataset.ipynb
+   jupyter notebook GBDT for Iris Dataset.ipynb
    ```
 3. Explore the results:
    - GBDT implementation is explained step-by-step.
    - XGBoost implementation demonstrates the power of the library.
-
----
 
 ## **Conclusion**
 This project demonstrates both a **manual implementation of Gradient Boosting** and the use of **XGBoost** to classify the Iris dataset effectively. It highlights:
